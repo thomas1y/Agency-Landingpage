@@ -33,7 +33,7 @@ export default function Home() {
                    <div className="flex">
                        {/* Left Content */}
                     <div className="w-1/2">
-                      <div className=" pt-[207.5px] pl-[244px] ">
+                      <div className=" pt-[207.5px] pl-[160px] ">
                         <div className="w-[206px] text-[13px] text-[#F64B4B] font-bold font-gilroy h-[16px]">
                           Let’s shift your business
                         </div>
@@ -53,10 +53,10 @@ export default function Home() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="w-1/2">
+                    <div className="w-1/2 relative h-full">
                       {/* Image goes here */}
-                      <div className="pt-[148.5px]">
-                           <div className='w-[463px] h-[504px] relative'>
+                      
+                           <div className='absolute left-[92px] top-[148.5px] w-[463px] h-[504px]'>
                                 <Image 
                                   src="/oval.png" 
                                   alt="Oval shape"
@@ -65,7 +65,7 @@ export default function Home() {
                                   className="absolute top-0 left-0"
                                  />
                            </div>
-                      </div>
+                      
                       
                     </div>
                    </div>
