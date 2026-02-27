@@ -102,31 +102,49 @@ export default function Home() {
       </section>
 
       <section className="bg-white pt-[117px]">
-                <div className="max-w-[1163px] h-[752px] ml-[279px]">
-                    {/* TITLE SECTION - this whole block starts 574px from left */}
-                    <div className="ml-[295px] mr-[507px]">  {/* 574px - 279px = 295px */}
-                      
-                      {/* Inner content centered within this block */}
-                      <div className="flex flex-col items-center">
-                        <div className='w-[589px] text-center text-[#F64B4B] font-Gilroy text-[13px] font-bold'>
-                          Our Services
-                        </div>
+                      <div className="max-w-[1163px] h-[752px] ml-[245px]">
+                          {/* TITLE SECTION - this whole block starts 574px from left */}
+                          <div className="ml-[260px] mr-[507px]">  {/* 574px - 279px = 295px */}
+                            
+                            {/* Inner content centered within this block */}
+                            <div className="flex flex-col items-center">
+                              <div className='w-[589px] text-center text-[#F64B4B] font-Gilroy text-[13px] font-bold'>
+                                Our Services
+                              </div>
 
-                        <h1 className="w-[589px] text-center font-bold font-Gilroy text-[36px]">
-                          We provide great services for our<br /> 
-                          customers based on needs
-                        </h1>
+                              <h1 className="w-[589px] text-center font-bold font-Gilroy text-[36px]">
+                                We provide great services for our<br /> 
+                                customers based on needs
+                              </h1>
+                            </div>
+          
                       </div>
-    
-                </div>
 
                        {/* CARDS SECTION */}
-                       <div>
-                           <div>Card content here</div>
+                       <div className="grid grid-cols-3 gap-6">
+                           <div>
+                                <h1>Graphic Design</h1>
+                                <p>With lots of unique blocks, you can<br/>
+                                 easily build a page without coding.<br/>
+                                  Build your next landing page.</p>
+                                <button>Learn more</button>
+                           </div>
                             {/* Card 2 */}
-                            <div>Card content here</div>
+                            <div>
+                                  <h1>Graphic Design</h1>
+                                <p>With lots of unique blocks, you can<br/>
+                                 easily build a page without coding.<br/>
+                                  Build your next landing page.</p>
+                                <button>Learn more</button>
+                            </div>
                             {/* Card 3 */}
-                            <div>Card content here</div>
+                            <div>
+                                  <h1>Graphic Design</h1>
+                                <p>With lots of unique blocks, you can<br/>
+                                 easily build a page without coding.<br/>
+                                  Build your next landing page.</p>
+                                <button>Learn more</button>
+                            </div>
                        </div>
 
                 </div>
