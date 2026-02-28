@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className=''>
       <section className="bg-[url('/hero-bg.png')] h-[801px] bg-cover relative bg-center">
-        <header className="absolute top-[16px] left-0 right-0 bg-transparent h-[50px] z-10">
+        <header className="absolute top-[16px] left-[60] right-0 bg-transparent h-[50px] z-10">
           <div className="max-w-[1160px] mx-auto px-6 h-full">
             <div className="flex items-center h-full">
               {/* Logo */}
@@ -30,7 +30,7 @@ export default function Home() {
 
         {/* Hero Content */}
         <div className="max-w-[1600px] mx-auto px-6 h-full">
-          <div className="flex">
+          <div className="flex pl-[30px]">
             {/* Left Content */}
             <div className="w-1/2">
               <div className="pt-[207.5px] pl-[160px]">
@@ -56,7 +56,7 @@ export default function Home() {
                         {/* Right Image */}
             <div className="w-1/2 relative h-full">
               {/* Image container */}
-              <div className='absolute left-[92px] top-[148.5px] w-[463px] h-[504px]'>
+              <div className='absolute left-[120px] top-[148.5px] w-[463px] h-[504px]'>
                  <div className="absolute top-[-30px] left-[94px] w-[107px] h-[68px] z-0">
                     <div className="relative w-full h-full">
                       {[
@@ -102,7 +102,7 @@ export default function Home() {
       </section>
 
       <section className="bg-white pt-[117px]">
-                      <div className="max-w-[1163px] h-[752px] ml-[245px]">
+                      <div className="max-w-[1163px] h-[752px] ml-[230px]">
                           {/* TITLE SECTION - this whole block starts 574px from left */}
                           <div className="ml-[260px] mr-[507px]">  {/* 574px - 279px = 295px */}
                             
@@ -121,16 +121,16 @@ export default function Home() {
                       </div>
 
                        {/* CARDS SECTION */}
-                       <div className="grid grid-cols-3 gap-6">
-                           <div>
-                                <h1>Graphic Design</h1>
-                                <p>With lots of unique blocks, you can<br/>
+                       <div className="grid grid-cols-3 gap-6 pt-[81px] -ml-[50px] ">
+                           <div className="w-[330px] bg-[#83FFA3] items-center">
+                                <h1 className="pt-[61px] text-[24px] text-center">Graphic Design</h1>
+                                <p className="text-center text-[17px]">With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
                                   Build your next landing page.</p>
-                                <button>Learn more</button>
+                                <button className="text-center">Learn more</button>
                            </div>
                             {/* Card 2 */}
-                            <div>
+                            <div className="w-[330px] bg-[#407BFF] items-center">
                                   <h1>Graphic Design</h1>
                                 <p>With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
@@ -138,7 +138,7 @@ export default function Home() {
                                 <button>Learn more</button>
                             </div>
                             {/* Card 3 */}
-                            <div>
+                            <div className="w-[330px] bg-[#FF7171]">
                                   <h1>Graphic Design</h1>
                                 <p>With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
