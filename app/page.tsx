@@ -121,30 +121,30 @@ export default function Home() {
                       </div>
 
                        {/* CARDS SECTION */}
-                       <div className="grid grid-cols-3 gap-6 pt-[81px] -ml-[50px] ">
-                           <div className="w-[330px] bg-[#83FFA3] items-center">
-                                <h1 className="pt-[61px] text-[24px] text-center">Graphic Design</h1>
-                                <p className="text-center text-[17px]">With lots of unique blocks, you can<br/>
+                       <div className="grid grid-cols-3 gap-6 pt-[81px] -ml-[100px] ">
+                           <div className="w-[330px] bg-[#68D585] items-center rounded-lg">
+                                <h1 className="pt-[61px] text-[24px] text-center text-[#ffffff] font-bold  ">Graphic Design</h1>
+                                <p className="text-center text-[17px] font-Gilroy text-[#ffffff] pt-[15px]">With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
                                   Build your next landing page.</p>
-                                <button className="text-center">Learn more</button>
+                                <button className=" pl-[100px] text-[17px] font-bold font-Gilroy text-[#ffffff] pt-[43px] pb-[38px]">Learn more</button>
                            </div>
                             {/* Card 2 */}
-                            <div className="w-[330px] bg-[#407BFF] items-center">
-                                  <h1>Graphic Design</h1>
-                                <p>With lots of unique blocks, you can<br/>
+                            <div className="w-[330px] bg-[#473BF0] items-center rounded-lg">
+                                <h1 className="pt-[61px] text-[24px] text-center text-[#ffffff] font-bold  ">Web Development</h1>
+                                <p className="text-center text-[17px] font-Gilroy text-[#ffffff] pt-[15px]">With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
                                   Build your next landing page.</p>
-                                <button>Learn more</button>
-                            </div>
+                                <button className=" pl-[100px] text-[17px] font-bold font-Gilroy text-[#ffffff] pt-[43px] pb-[38px]">Learn more</button>
+                           </div>
                             {/* Card 3 */}
-                            <div className="w-[330px] bg-[#FF7171]">
-                                  <h1>Graphic Design</h1>
-                                <p>With lots of unique blocks, you can<br/>
+                            <div className="w-[330px] bg-[#FF5652] items-center rounded-lg">
+                                <h1 className="pt-[61px] text-[24px] text-center text-[#ffffff] font-bold  ">Content Writing</h1>
+                                <p className="text-center text-[17px] font-Gilroy text-[#ffffff] pt-[15px]">With lots of unique blocks, you can<br/>
                                  easily build a page without coding.<br/>
                                   Build your next landing page.</p>
-                                <button>Learn more</button>
-                            </div>
+                                <button className=" pl-[100px] text-[17px] font-bold font-Gilroy text-[#ffffff] pt-[43px] pb-[38px]">Learn more</button>
+                           </div>
                        </div>
 
                 </div>
