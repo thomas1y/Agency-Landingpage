@@ -188,16 +188,49 @@ export default function Home() {
       </section>
 
       <section className='bg-white pt-[122px]' >
-          <div className="max-w-[1110px] h-[883px] ml-[279px] mr-[247px]">
+          <div className="max-w-[1110px] h-[883px] ml-[180px] mr-[200px]">
                <div className="grid grid-cols-2">
                {/* left content*/}
-                    <div className="bg-black">
-                       left
+                    <div className="">
+                       <div className="w-[515px] h-[198px] ">
+                           <h1 className="h-[16px] w-[83px] font-bold text-[#F64B4B] text-[13px] font-Gilroy">our story</h1>
+                          <p className="h-[100px] w-[515px] pt-[30px] font-bold text-[#161C2D] text-[30px] font-Gilroy">We know how everything works<br/> 
+                            and why your business is failing<br/>
+                            over and over again.</p>
+                       </div>
+                       <Image 
+                           src="/Img.png" 
+                          alt="Oval shape"
+                          width={440}
+                          height={530}
+                          className="pt-[80px]"
+                          
+                       />
                     </div>
 
                  {/*right content */}
-                    <div>
-                      right
+                    <div className='ml-[50px]'>
+                         <div className="flex pt-[200px]">
+                            <Image
+                               src="/2.png" 
+                              alt="Oval shape"
+                              width={260}
+                              height={270}
+                           /> 
+                           <Image 
+                           
+                               src="/3.png" 
+                              alt="Oval shape"
+                              width={160}
+                              height={70}
+                              className="ml-[90px] pt-[80px] pb-[50px]" 
+                       />
+                         </div>
+
+                         <p className=" h-[116px] w-[490px] pt-[100px] text-[#161C2D] text-[17px]">We share common trends and strategies for improving your<br />
+                            rental income and making sure you stay in high demand. With<br />
+                           lots of unique blocks, you can easily build a page without<br />
+                           coding. Build your next landing page.</p>
                     </div>
 
                </div>
