@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[#F2F2F2]'>
       <section className="bg-[url('/hero-bg.png')] h-[750px] bg-cover relative bg-center">
         <header className="absolute top-[16px] left-[60px] right-0 bg-transparent h-[50px] z-10">
           <div className="max-w-[1160px] mx-auto px-6 h-full">
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white pt-[117px]">
+      <section className="bg-[#F2F2F2] pt-[117px]">
         <div className="max-w-[1163px] h-[600px] ml-[230px]">
           {/* TITLE SECTION */}
           <div className="ml-[260px] mr-[507px]">
@@ -163,7 +163,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white ml-[130px] mr-[68px]">
+      <section className="bg-[#F2F2F2] ml-[130px] mr-[68px]">
         <div className="max-w-[1108px] h-[301px]">
           <div className="flex items-center w-[980px] h-[178px] ml-[80px]">
             <div>
@@ -187,8 +187,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='bg-white pt-[122px]' >
-          <div className="max-w-[1110px] h-[883px] ml-[180px] mr-[200px]">
+      <section className='bg-[#F2F2F2] pt-[122px]' >
+          <div className="max-w-[1110px] h-[883px] ml-[180px] ">
                <div className="grid grid-cols-2">
                {/* left content*/}
                     <div className="">
@@ -236,7 +236,27 @@ export default function Home() {
                </div>
           </div>
       </section>
-      <section>Facts</section>
+      <section className="bg-[#F2F2F2] pt-[80px]">
+             <div className="max-w-[1074px] h-[140px] ml-[230px] ">
+                  <div className="flex gap-12">
+                       <div className='h-[140px]'>
+                          <h1 className='ml-[100px] text-[#161C2D] text-[48px] font-bold font-Gilroy'>1M+</h1>
+                          <p className="text-[19px] font-Gilroy w-[314px]">Customers visit Omega every month<br /> 
+                                                                   to get their service done.</p>
+                       </div>
+                       <div className='ml-[66px]'>
+                           <h1 className='ml-[100px] text-[#161C2D] text-[48px] font-bold font-Gilroy'>92%</h1>
+                          <p className="text-[19px] font-Gilroy w-[314px]">Satisfaction rate comes from our<br />
+                            awesome customers.</p>
+                       </div>
+                       <div className='ml-[66px]'>
+                           <h1 className='ml-[80px] text-[#161C2D] text-[48px] font-bold font-Gilroy'>4.9/5.0</h1>
+                           <p className="text-[19px] font-Gilroy w-[314px]">Average customer ratings we have<br />
+                              got all over internet.</p>
+                       </div>
+                  </div>
+             </div>
+      </section>
       <section>Features</section>
     </div>
   );
