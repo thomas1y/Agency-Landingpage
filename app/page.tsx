@@ -165,7 +165,7 @@ export default function Home() {
 
       <section className="bg-white ml-[130px] mr-[68px]">
         <div className="max-w-[1108px] h-[301px]">
-          <div className="flex items-center w-[980px] h-[178px]">
+          <div className="flex items-center w-[980px] h-[178px] ml-[80px]">
             <div>
               <Image 
                 src="/oval2.png" 
@@ -176,11 +176,12 @@ export default function Home() {
             </div>
             <div className="ml-[200px]">
               <div>⭐⭐⭐⭐⭐</div>
-              <p>
+              <p className="pt-[7px] text-[#161C2D] font-bold font-Gilroy text-[24]">
                 &ldquo;OMG! I cannot believe that I have got a brand new landing page<br/>
                 after getting Albino. It was super easy to edit and publish.&rdquo;
               </p>
-              <h1>web developer</h1>
+              <h1 className="text-[#3161C2D] font-bold font-Gilroy text-[17] pt-[15px]">web developer</h1>
+              
             </div>
           </div> 
         </div>
