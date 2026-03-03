@@ -187,7 +187,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section>About</section>
+      <section className='bg-white pt-[122px]' >
+          <div className="max-w-[1110px] h-[883px] ml-[279px] mr-[247px]">
+               <div className="grid grid-cols-2">
+               {/* left content*/}
+                    <div className="bg-black">
+                       left
+                    </div>
+
+                 {/*right content */}
+                    <div>
+                      right
+                    </div>
+
+               </div>
+          </div>
+      </section>
       <section>Facts</section>
       <section>Features</section>
     </div>
